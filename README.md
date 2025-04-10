@@ -1,6 +1,8 @@
-# Project Breakdown
+<h1 align="center">🌍🧭📍 Interactive Map Quiz 🌍🧭📍</h1>
 
-An interactive quiz of 5 questions on a map background. When hovering over a certain country to take me to the question "What is ['this'] country's capital?" where ['this'] will be a country name. Countries:
+## Overview
+
+&nbsp;&nbsp;&nbsp;&nbsp; Presenting an interactive quiz built with **TypeScript**, **HTML**, **CSS**, and **SCSS**. The goal is to test your geography knowledge by identifying the capital cities of five countries. When you hover over a country on a styled map background, you'll be prompted with the question: When clicking over certain countries to open the question "What is ['this country']'s capital?"['this country'] will be replaced by a country name, from the following list:
 
 1. Japan - Tokyo
 2. France - Paris
@@ -8,18 +10,23 @@ An interactive quiz of 5 questions on a map background. When hovering over a cer
 4. Australia - Canberra
 5. Canada - Ottawa
 
-## HTML / SCSS
+## HTML / CSS
 
--   [ ] I need a map background image - set in css;
--   [ ] 5 divs - one for each country;
+-   [x] source map background image;
+-   [x] set markers (in Adobe Illustrator) to link into interactivity;
+-   [x] 5 divs - one for each country;
+-   [x] 2 buttons per div for the correct and false answers;
+-   [x] arrange divs to the position of the country;
+-   [ ] responsive design;
+-   [ ] content formatting;
 -   [ ] a question box with a button;
 -   [ ] a feedback box where user inputs the answer;
--   [ ]
--   [ ]
 
 ## TypeScript
 
--   [ ] set the 5 country capitals as variables and then link to the capitals;
+-   [ ] set the 5 countries as variables and then link to the capitals;
 -   [ ] eventListeners to look out for clicks;
--   [ ] set function for hovering over the countries;
+-   [ ] set function for hovering over the markers, the div with a Welcome message appears;
+-   [ ] set a function to make quiz appear when clicking on the Welcome card;
 -   [ ] set a function to check the answers and to give feedback - whether correct or not;
+-   [ ] if correct, the button clicked will become green, else red.

@@ -1,0 +1,96 @@
+body {
+  /* background-image: url('./../image/mapsvg.svg'); */
+  background-color: aliceblue(202, 218, 250);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  max-width: 100%; 
+  height: 100%; 
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll; */
+}
+
+
+
+h1 {
+  color: rgb(224, 17, 17);
+  text-align: center;
+  
+}
+
+h5 {
+  color: rgb(224, 17, 17);
+}
+
+p {
+  color:brown;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.hide {
+  /* display: block; */
+  background-color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  
+  margin: 0 auto;
+
+  padding: 10px, 20px;
+  border: 1px solid brown;
+  font-size: 12px;
+  /* opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+   */
+   /* display: none; */
+}
+
+/* .hide:hover {
+  opacity: 1;
+} */
+
+/* .hide:hover > .circle {
+  opacity: 1;
+} */
+
+/* marker-australia
+ marker-france
+  marker-brazil
+  marker-canada  
+  marker-japan */
+
+.france-txt {
+  top: 32%;
+  left: 35% ;
+}
+
+.canada-txt {
+  top: 40%;
+  left: 15%;
+}
+
+.brazil-txt {
+  top: 65%;
+  left: 25%;
+}
+
+.japan-txt  {
+  top: 42%;
+  left: 72%;
+}
+
+.australia-txt {
+  top: 88%;
+  left: 73%;
+}
+
+/* .answer-buttons {
+background-color: aliceblue;
+border-radius: 1px solid;
+font-family: inherit;
+cursor: pointer;
+}
+.btn:hover {
+  background-color: aqua;
+} */
