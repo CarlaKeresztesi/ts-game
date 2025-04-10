@@ -67,7 +67,9 @@ The following five countries with their capitals are included in the quiz:
     ```
 
 4. **Run the Game:**
-   O
+    ```
+    Right click and open in server.
+    ```
 
 ## 🪄 Future Enhancements
 
