@@ -14,7 +14,7 @@ The following five countries with their capitals are included in the quiz:
 -   Australia - Canberra
 -   Canada - Ottawa
 
-## 🧬Project Structure
+## 🧬 Project Structure
 
 ### HTML / CSS
 
@@ -45,9 +45,9 @@ The following five countries with their capitals are included in the quiz:
 
 -**SCSS**: improved modular and cleaner styles
 
-## ▶️How to run
+## ▶️ How to run
 
-1. **Clone the repository** with Bash or the terminal emulator in your IntelliJ IDEA, using the command:
+1. **Clone the repository** with Bash, using the command:
 
     ```
     git clone https://github.com/CarlaKeresztesi/ts-game.git
@@ -69,7 +69,7 @@ The following five countries with their capitals are included in the quiz:
 4. **Run the Game:**
    O
 
-## 🪄Future Enhancements
+## 🪄 Future Enhancements
 
 -   **Modularize TypeScript** - break the logic into separate modules (data, UI, utils).
 -   **Use a framework** - migrate to React or Vue for component-based development.
@@ -84,9 +84,9 @@ The following five countries with their capitals are included in the quiz:
 -   **Add Fun Fact** about the countries upon a correct answer.
 -   **Languages** - add localization to support different languages.
 
-## 🤝Contributions and Feedback
+## ⭐ Feedback
 
-Contributions and feedback are welcome! Hope you enjoy the game as much as I did working on it!
+Feedback is always welcome! Hope you enjoy the game as much as I am working on it!
 
 <p align="center">
   <img src="signature.png" alt="signature" width="150"/>
