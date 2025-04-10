@@ -86,7 +86,7 @@ The following five countries with their capitals are included in the quiz:
 
 ## ⭐ Feedback
 
-Feedback is always welcome! Hope you enjoy the game as much as I am working on it!
+Feedback is always welcome! Hope you enjoy the game as much as I enjoy working on it!
 
 <p align="center">
   <img src="signature.png" alt="signature" width="150"/>
