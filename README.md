@@ -1,16 +1,22 @@
-<h1 align="center">🌍🧭📍 Interactive Map Quiz 🌍🧭📍</h1>
+<h1 align="center">🌍🧭📍 Interactive Map Quiz 📍🧭🌍</h1>
 
 ## Overview
 
-&nbsp;&nbsp;&nbsp;&nbsp; Presenting an interactive quiz built with **TypeScript**, **HTML**, **CSS**, and **SCSS**. The goal is to test your geography knowledge by identifying the capital cities of five countries. When you hover over a country on a styled map background, you'll be prompted with the question: When clicking over certain countries to open the question "What is ['this country']'s capital?"['this country'] will be replaced by a country name, from the following list:
+&nbsp;&nbsp;&nbsp;&nbsp; Presenting an interactive browser-based quiz to test your knowledge of world capitals. Hover over a country on the map, answer a capital city question and get instant feedback!
 
-1. Japan - Tokyo
-2. France - Paris
-3. Brazil - Brasília
-4. Australia - Canberra
-5. Canada - Ottawa
+## 🌍 Countries and Capitals
 
-## HTML / CSS
+The following five countries with their capitals are included in the quiz:
+
+-   Japan - Tokyo
+-   France - Paris
+-   Brazil - Brasília
+-   Australia - Canberra
+-   Canada - Ottawa
+
+## 🧬Project Structure
+
+### HTML / CSS
 
 -   [x] source map background image;
 -   [x] set markers (in Adobe Illustrator) to link into interactivity;
@@ -22,7 +28,7 @@
 -   [ ] a question box with a button;
 -   [ ] a feedback box where user inputs the answer;
 
-## TypeScript
+### TypeScript
 
 -   [ ] set the 5 countries as variables and then link to the capitals;
 -   [ ] eventListeners to look out for clicks;
@@ -30,3 +36,19 @@
 -   [ ] set a function to make quiz appear when clicking on the Welcome card;
 -   [ ] set a function to check the answers and to give feedback - whether correct or not;
 -   [ ] if correct, the button clicked will become green, else red.
+
+## 🛠️ Tech Stack
+
+-**TypeScript**: for core logic and interactivity
+
+-**HTML/CSS**: structure and basic styling
+
+-**SCSS**: improved modular styles
+
+## 🪄Future Enhancements
+
+## 🤝Contributions and Feedback
+
+<p align="center">
+  <img src="signature.png" alt="signature" width="150"/>
+</p>
