@@ -8,7 +8,7 @@
   <title>Interactive Map Game</title>
 </head>
 <body>
-  <script src="./src/main.ts" type="module"></script>
+ 
   <h1> World Map Game</h1>
 
   <div class="map-container">
@@ -24,6 +24,15 @@
 
   <div class="marker" style="top:40%; left: 85%;" data-question="What is the capital of Japan?" data-correct="Tokyo" data-wrong="Osaka"></div>
 
+
+  <div class="overlay" id="overlay"></div>
+
+  <div class="quiz-popup" id="quiz">
+    <p id="question-text"></p>
+    <button id="btn-correct">Correct</button>
+    <button id="btn-incorrect">Incorrect</button>
+  </div>  
+
  <div class="completion-popup" id="completion">
     <p id="question-text"></p>
     <div id="timer">Time left: 10s</div>
@@ -32,12 +41,19 @@
  </div>
 
  <div class="completion-popup" id="completion">
-    <h2>🎌⏳Quiz complete!🚀</h2>
+    <h2>🎌Quiz complete!🚀</h2>
     <p id="final-score"></p>
     <button onclick="location.reload()">Play Again</button>
  </div>
 
- 
+ <div id="score">Score: 0</div>
+
+
+      <script src="./src/main.ts" type="module"></script>
+
+</body>
+</html>
+
 
 
 
