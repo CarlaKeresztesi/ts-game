@@ -12,7 +12,7 @@
   <h1> World Map Game</h1>
 
   <div class="map-container">
-    <img src="./image/mapdot.jpg" alt="World Map"/>
+      <img src="./image/mapsvg.svg" alt="World Map"/>
 
   <div class="marker" style="top:75%; left: 87%;" data-question="What is the capital of Australia?" data-correct="Canberra" data-wrong="Sydney"></div>
    
@@ -24,9 +24,20 @@
 
   <div class="marker" style="top:40%; left: 85%;" data-question="What is the capital of Japan?" data-correct="Tokyo" data-wrong="Osaka"></div>
 
+ <div class="completion-popup" id="completion">
+    <p id="question-text"></p>
+    <div id="timer">Time left: 10s</div>
+    <button id="btn1"></button>
+    <button id="btn2"></button>
+ </div>
+
+ <div class="completion-popup" id="completion">
+    <h2>🎌⏳Quiz complete!🚀</h2>
+    <p id="final-score"></p>
+    <button onclick="location.reload()">Play Again</button>
+ </div>
+
  
-
-
 
 
 
